@@ -1,0 +1,28 @@
+# Dependencies (all apps)
+**/node_modules/
+
+# Build output
+**/dist/
+**/.next/
+*.tsbuildinfo
+
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Allow example env templates
+!**/.env.example
+!**/.env.local.example
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Local / runtime data
+coverage/
+mongo-data/
+recordings/
+uploads/
+**/uploads/
